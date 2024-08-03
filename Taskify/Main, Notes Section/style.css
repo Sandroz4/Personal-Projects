@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 300px;
+    margin: 30px 40px 30px 40px;
+    border-radius: 15px;
+    background-color: #ebebeb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.note {
+    width: 270px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.note h3, .note p {
+    margin: 0;
+    padding: 5px;
+    outline: none;
+}
+.note h3 {
+    font-size: 25px;
+}
+.note p {
+    flex-grow: 1;
+    font-size: 15px;
+}
+.delete-btn, .color-btn {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.delete-btn {
+    top: 5px;
+    right: 5px;
+}
+.color-btn {
+    top: 5px;
+    right: 30px;
+}
+.add-note {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+}
+.menu-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px -30px;
+}
+.menu-items li {
+    margin-bottom: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.menu-items img{
+    margin-right: 10px;
+}
+.settings {
+    margin-top: auto;
+    margin-left: 10px;
+}
+.color-palette {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+.color-option {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.date-time{
+    margin-left: 10px;
+}
+.underlined{
+    text-decoration: none;
+    color: black;
+}
+.level-info{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 20px;
+    
+}
+.level-info, p{
+    margin-left: 20px;
+}
+.top-main{
+    display: flex;
+    justify-content: space-between;
+}

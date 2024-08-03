@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 300px;
+    margin: 30px 40px 30px 40px;
+    border-radius: 15px;
+    background-color: #ebebeb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px -30px;
+}
+.menu-items li {
+    margin-bottom: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.menu-items img{
+    margin-right: 10px;
+}
+.settings {
+    margin-top: auto;
+    margin-left: 10px;
+}
+.date-time{
+    margin-left: 10px;
+}
+.underlined{
+    text-decoration: none;
+    color: black;
+}
