@@ -164,7 +164,7 @@ nav ul li a:hover::after {
   border-radius: 50%;
 }
 .circle3 {
-  top: -2%;
+  top: 20%;
   left: 2%;
   transform: translate(-50%, -50%);
   animation: upDownup 6s ease-in-out infinite;
@@ -221,7 +221,7 @@ nav ul li a:hover::after {
   border-radius: 50%;
 }
 .circle1 {
-  top: 14%;
+  top: 15%;
   left: 16%;
   transform: translate(-0%, -5%);
   animation: upDown 6s ease-in-out infinite;
@@ -559,7 +559,7 @@ nav ul li a:hover::after {
   border-radius: 50%;
 }
 .circle4 {
-  top: 375%;
+  top: 380%;
   left: 23%;
   transform: translate(-0%, -5%);
   animation: upDown 6s ease-in-out infinite;
