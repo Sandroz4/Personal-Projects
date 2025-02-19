@@ -1,3 +1,19 @@
+// console.log('success'
+// alert('order confirmed')
+
+// let bike = 15
+// console.log(bike + 15)
+
+// let name = 'sandro'
+// console.log(name + 'has a bright future.')
+// let name = 'sandro'
+
+// let surname = 'zabakhidze'
+// console.log(name + ' ' + surname)
+
+// const age = 20
+// console.log(age)
+
 // let name = document.getElementById('test');
 // name.textContent = 'tested';
 
@@ -35,4 +51,5 @@
 // console.log(2>4)
 // console.log(5>=4)
 // console.log(5>=5)
+
 
