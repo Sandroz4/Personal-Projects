@@ -53,3 +53,16 @@
 // console.log(5>=5)
 
 
+
+
+function parameters() {
+    let width = document.getElementById('width').value;
+    let height = document.getElementById('height').value;
+    let radius = document.getElementById('radius').value; 
+    let image = document.querySelector('img');
+
+
+    image.style.width = width + 'px';
+    image.style.height = height + 'px';
+    image.style.borderRadius = radius + 'px';
+}
