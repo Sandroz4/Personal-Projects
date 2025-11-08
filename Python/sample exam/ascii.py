@@ -123,13 +123,53 @@
 
 # chr(number) converts to a character.
 
-# Exercise 7:
-# Write a function random_text_lowercase_count() that:
+# # Exercise 7:
+# # Write a function random_text_lowercase_count() that:
 
-# Generates 100 random numbers from 65–122.
+# # Generates 100 random numbers from 65–122.
 
-# Converts them to characters to form a string.
+# # Converts them to characters to form a string.
 
-# Counts how many letters are lowercase (97–122).
+# # Counts how many letters are lowercase (97–122).
 
-# Example output (will vary due to randomness):
+# # Example output (will vary due to randomness):
+
+# import random 
+# def random_text_lowercase_count():
+#     count = 0
+
+#     for _ in range(100):
+#         i = random.randint(65, 122)
+#         i = chr(i)
+#         if 97 <= ord(i) <= 122:
+#             count += 1
+#     return count
+
+
+
+# print(random_text_lowercase_count())
+
+
+
+
+# # Principle:
+
+# # Just loop through the string and increment a counter whenever the character matches.
+
+# # This is what exam problem #10 is asking.
+
+# # Exercise 8:
+# # Write a function count_char(text, char) that counts how many times char appears in text without using .count().
+
+
+# def count_char(text, char):
+#     count = 0
+
+#     for i in text:
+#         if ord(i) == ord(char):
+#             count += 1
+
+#     return count
+
+
+# print(count_char('hello world', 'l'))
