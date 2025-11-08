@@ -37,3 +37,4 @@
 
 
 # print((lambda a, b, c: a / b == c) (10, 5, 2))
+
