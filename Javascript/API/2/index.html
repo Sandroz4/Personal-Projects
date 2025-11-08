@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input oninput="search()" id="inp" type="text">
+    <img src="" alt="">
+
+
+    <script>
+        function search() {
+        let inp = document.getElementById('inp').value;
+        let img = document.querySelector('img')
+        const apiKey = "38c8a267e25940bf35aa75921cdd6af2";
+        const query = inp;
+
+        fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(query)}`)
+            .then(res => res.json())
+            .then(data => {
+                let movie = data.results[0]
+
+                img.src = 'https://image.tmdb.org/t/p/w500' + movie.poster_path
+        })
+    }
+
+
+    </script>
+</body>
+</html>
